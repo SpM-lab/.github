@@ -19,6 +19,9 @@ analytic continuation.
 sparse-ir-rs is the shared backend: its C API is what sparse-ir (via
 `pylibsparseir`) and SparseIR.jl (via `libsparseir_jll`) call, and it ships
 the Fortran bindings.
+New features land there first: the DLR built without an IR basis and
+ESPRIT/MiniPole pole extraction are currently on the `main` branch of
+sparse-ir-rs only, not yet in a release or in the Python and Julia libraries.
 
 ## Analytic continuation
 

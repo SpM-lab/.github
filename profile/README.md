@@ -30,11 +30,12 @@ without an IR basis, land there first.
 
 ## Analytic continuation
 
+- **[MiniPole](https://spm-lab.github.io/sparse-ir-rs/tutorials/minipole.html)** (recommended) — minimal pole representation, in sparse-ir-rs
 - [SpM](https://github.com/SpM-lab/SpM) — sparse modeling analytic continuation (C++)
 - [pySpMAC](https://github.com/SpM-lab/pySpMAC) — sparse modeling analytic continuation (Python)
 - [admmsolver](https://github.com/SpM-lab/admmsolver) — a general ADMM solver (Python)
-- [Nevanlinna.jl](https://github.com/SpM-lab/Nevanlinna.jl) — Nevanlinna analytic continuation (Julia)
-- [MiniPole](https://spm-lab.github.io/sparse-ir-rs/tutorials/minipole.html) — minimal pole representation, in sparse-ir-rs
+- [Nevanlinna.jl](https://github.com/SpM-lab/Nevanlinna.jl) — Nevanlinna analytic continuation (Julia); not recommended,
+  as it is very sensitive to noise in the input data. Use MiniPole instead.
 
 ## Older repositories
 
